@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,800;1,500&display=swap");
-
+@charset "UTF-8";
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +6,7 @@
     font-family: "Poppins", sans-serif;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,800;1,500&display=swap");
 .header {
     /*definida en _footer.scss*/
     max-height: 350px;
