@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,800;1,500&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    /*definida en _footer.scss*/
+    max-height: 350px;
+    min-height: 300px;
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+.fondoLogo{
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    padding: .2rem;
+}
+.img-logo {
+    max-height: 280px;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: .2rem;
+    object-fit: cover;
+    border-top: 1rem;
+}
+.iconoGif {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: .2rem;
+    object-fit: cover;
+    border-top: 1rem;
+}
+.main {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.body {
+    background: linear-gradient(35deg, lightgray 10%, #b1a7a6 25%, #ba181b 35%, #a4161a 45%, #660708 65%, #0d0c0d 85%, #0b090a 90%);
+    animation: gradient-animation 2s ease infinite;
+    background-size: 120% 120%;
+    /*lo de arriba le da un color de fondo a toda la web*/
+}
+@keyframes gradient-animation {
+	0% {
+		background-position: 0% 25%;
+	}
+	15% {
+		background-position: 35% 50%;
+	}
+    30% {
+		background-position: 70% 70%;
+	}
+	50% {
+		background-position: 100% 80%;
+	}
+	70% {
+		background-position: 70% 70%;
+	}
+    85% {
+		background-position: 35% 50%;
+	}
+	100% {
+		background-position: 0% 25%;
+	}
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(177, 167, 166, 0.5);
+    border-radius: 5%;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 150px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #cda1c4;
+    text-shadow: 6px 2px .5px #121314;
+    background-color: rgb(177, 167, 166, 0.5);
+    text-align: center;
+    margin: .5px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+.parrafo {
+    width: 700px;
+    height: 50px;
+    font-size: 1.5rem;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    background-color: rgb(177, 167, 166, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.checkbox {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.instrucciones {
+    width: 700px;
+    height: 50px;
+    font-size: 1.5rem;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.with-background {
+    background-color: rgba(11, 156, 223, 0.5);
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 15vh;
+    background-color: rgba(211, 211, 211, .2);
+
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(177, 167, 166, 0.5);
+    border-radius: 5%;
+    width: 50%;
+}
