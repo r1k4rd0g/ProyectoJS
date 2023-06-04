@@ -37,7 +37,7 @@ botonLogin.addEventListener("click", () => {
 
 //click en botón registro.
 botonRegistro.addEventListener("click", () => {
-    window.location.href = "https://r1k4rd0g.github.io/Secciones/Registro.html"
+    window.location.href = "../Secciones/Registro.html"
 });
 //movimiento del logo
 const logo = document.getElementById("logo");
